@@ -1,4 +1,4 @@
-# Squids Pro
+# Squids Pro Quo
 
 🐙 💯
 
@@ -16,3 +16,7 @@ Notes:
 - Only use this for 1-page forms
 - Don't have a default value on your radio buttons
 - Don't have any 'required' fields inside conditional sections
+
+## Layout of 'Field Notes'
+
+Fix 'File Note' / form helper text weirdly spaced in same line as question title
