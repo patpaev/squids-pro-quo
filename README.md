@@ -19,4 +19,4 @@ Notes:
 
 ## Layout of 'Field Notes'
 
-Fix 'File Note' / form helper text weirdly spaced in same line as question title
+Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly prettier styling.

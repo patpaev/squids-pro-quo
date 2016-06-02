@@ -1,0 +1,23 @@
+.sq-form-question-datetime label {
+  width: 20%!important;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sq-form-question-datetime fieldset .styled-select {
+  width: 19%!important;
+  display: inline-block!important;
+  margin-right: 1%!important;
+  float: right!important;
+}
+
+.sq-form-question-note {
+  color: #666;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
