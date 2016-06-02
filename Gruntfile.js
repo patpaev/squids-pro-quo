@@ -45,12 +45,18 @@ module.exports = function (grunt) {
         }]
       }
     },
+
+    clean: {
+      js: ['dist/*', '!dist/<%= pkg.name %>*', '!dist/latest*']
+    }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   grunt.registerTask('outputInjection', 'Outputs the final injection code to a file', function () {
     style = injectStyleIntoDocument( grunt.file.read('dist/style.min.css') );
@@ -61,9 +67,10 @@ module.exports = function (grunt) {
     filename = 'dist/' + grunt.config('pkg.name') + '-v' + grunt.config('pkg.version') + '.js';
     grunt.log.writeln('writing file: ', filename);
     grunt.file.write(filename, filecontents);
+    grunt.file.write('dist/latest.js', filecontents);
   });
 
-  grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'cssmin', 'outputInjection']);
+  grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'cssmin', 'outputInjection', 'clean']);
 
   function injectScriptIntoDocument ( code ) {
     /*jshint multistr: true */
