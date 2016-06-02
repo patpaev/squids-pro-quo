@@ -2,7 +2,7 @@
 
 🐙 💯
 
-## Usage
+#### Usage
 
 Put the following code anywhere in your HTML.
 
@@ -37,4 +37,4 @@ Allows sections of a form to be hidden unless a certain radio button is selected
 
 ## Layout of 'Field Notes'
 
-Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly prettier styling
+Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly prettier styling.

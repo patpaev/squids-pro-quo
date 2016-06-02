@@ -74,16 +74,16 @@ module.exports = function (grunt) {
 
   function injectScriptIntoDocument ( code ) {
     /*jshint multistr: true */
-    return ( "window.SQPloadInjection = function() { \
+    return ( "window.SPQloadInjection = function() { \
 'use strict'; \
 " + code + " \
 }; \
 if (window.attachEvent) { \
-  window.attachEvent('onload', window.SQPloadInjection); \
+  window.attachEvent('onload', window.SPQloadInjection); \
 } else { \
-  document.addEventListener('DOMContentLoaded', window.SQPloadInjection, false); \
-  document.addEventListener('page:load', window.SQPloadInjection, false); \
-  document.addEventListener('page:restore', window.SQPloadInjection, false); \
+  document.addEventListener('DOMContentLoaded', window.SPQloadInjection, false); \
+  document.addEventListener('page:load', window.SPQloadInjection, false); \
+  document.addEventListener('page:restore', window.SPQloadInjection, false); \
 }");
   }
 
