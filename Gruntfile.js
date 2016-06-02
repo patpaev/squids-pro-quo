@@ -58,7 +58,7 @@ module.exports = function (grunt) {
     filecontents = '';
     filecontents += style;
     filecontents += script;
-    filename = 'dist/' + grunt.config('pkg.name') + '.js';
+    filename = 'dist/' + grunt.config('pkg.name') + '-v' + grunt.config('pkg.version') + '.js';
     grunt.log.writeln('writing file: ', filename);
     grunt.file.write(filename, filecontents);
   });
