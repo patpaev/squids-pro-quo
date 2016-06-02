@@ -1,6 +1,6 @@
 {
   "name": "squids-pro-quo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Squids Pro Quo – a library of patches for missing functionality for the sites in the University of Melbourne 'Squiz Matrix' platform",
   "author": {
     "name": "Patrick Paevere",
