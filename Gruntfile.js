@@ -77,7 +77,7 @@ module.exports = function (grunt) {
     return ( "window.SQPloadInjection = function() { \
 'use strict'; \
 " + code + " \
-} \
+}; \
 if (window.attachEvent) { \
   window.attachEvent('onload', window.SQPloadInjection); \
 } else { \
