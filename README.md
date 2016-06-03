@@ -12,6 +12,8 @@ Put the following code anywhere in your HTML.
 
 ## Better Datetime
 
+![datetime](https://cloud.githubusercontent.com/assets/6847023/15765344/32cd392a-2977-11e6-8d14-48e5b2c6ad56.png)
+
 - Puts the correct headings above the each dropdown in a datetime, and puts the fields next to each other instead of on top of each other
 - Adjusts the widths of the labels and boxes to fit 100% of the container, no matter the number of y/m/d/h/i/s fields
 
@@ -20,6 +22,8 @@ Put the following code anywhere in your HTML.
 - You cannot use textboxes for any fields, they must all be select dropdowns
 
 ## Conditional Form Sections
+
+![giphy](https://cloud.githubusercontent.com/assets/6847023/15765398/d30f86a4-2977-11e6-9a50-ae6cad63afb6.gif)
 
 Allows sections of a form to be hidden unless a certain radio button is selected.
 
@@ -36,6 +40,8 @@ Allows sections of a form to be hidden unless a certain radio button is selected
 - Don't have any 'required' fields inside conditional sections
 
 ## Layout of 'Field Notes'
+
+![fieldnote](https://cloud.githubusercontent.com/assets/6847023/15765349/3db87796-2977-11e6-865d-3e5107c7561c.png)
 
 Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly prettier styling.
 
