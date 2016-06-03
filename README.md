@@ -38,3 +38,9 @@ Allows sections of a form to be hidden unless a certain radio button is selected
 ## Layout of 'Field Notes'
 
 Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly prettier styling.
+
+***
+
+## Notes
+
+Because of the nature of the javascript injection, all CSS must use double quotes (`"`) only. Any use of single quotes (`'`) will break the injection!
