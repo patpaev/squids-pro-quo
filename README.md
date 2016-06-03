@@ -38,6 +38,7 @@ Allows sections of a form to be hidden unless a certain radio button is selected
 - Only use this for 1-page forms
 - Don't have a default value on your radio buttons
 - Don't have any 'required' fields inside conditional sections
+- Date/time fields are 'required' by default, you must select 'allow blank' on all fields for this component
 
 ## Layout of 'Field Notes'
 
