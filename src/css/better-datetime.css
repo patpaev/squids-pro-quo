@@ -1,6 +1,7 @@
 .sq-form-question-datetime label {
   box-sizing: border-box;
   float: left;
+  min-height: 20px;
 }
 
 .sq-form-question-datetime fieldset .styled-select {
