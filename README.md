@@ -4,9 +4,15 @@
 
 #### Usage
 
-Put the following code anywhere in your HTML.
+Put the following code anywhere in your HTML:
 
     <script src="https://d2miw5gu5zak37.cloudfront.net/" type="text/javascript"></script>
+
+This will automatically pull the latest release.
+
+To lock your injection to a specific version, specify the version:
+
+    <script src="https://d2miw5gu5zak37.cloudfront.net/squids-pro-quo-v0.0.0.js" type="text/javascript"></script>
 
 ***
 
@@ -59,8 +65,8 @@ Have the dependencies installed
     npm install
 
 1. Bump the version number in `package.json`
-2. Run `grunt`
-3. Copy to S3 (#TODO: automate deployment)
+2. Run `grunt` and verify the output
+3. Push to `master`, which will automatically propogate the version and changes.
 
 ### Notes
 
