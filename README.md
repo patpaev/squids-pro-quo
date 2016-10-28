@@ -4,9 +4,15 @@
 
 #### Usage
 
-Put the following code anywhere in your HTML.
+Put the following code anywhere in your HTML:
 
     <script src="https://d2miw5gu5zak37.cloudfront.net/" type="text/javascript"></script>
+
+This will automatically pull the latest release.
+
+To lock your injection to a specific version, specify the version:
+
+    <script src="https://d2miw5gu5zak37.cloudfront.net/squids-pro-quo-v0.0.0.js" type="text/javascript"></script>
 
 ***
 
@@ -48,6 +54,20 @@ Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly pr
 
 ***
 
-## Notes
+## Development
+
+Create the applicable `src/js/[feature_name].js` / `src/css/[feature_name].css` files
+
+## Deployment
+
+Have the dependencies installed
+
+    npm install
+
+1. Bump the version number in `package.json`
+2. Run `grunt` and verify the output
+3. Push to `master`, which will automatically propogate the version and changes.
+
+### Notes
 
 Because of the nature of the javascript injection, all CSS must use double quotes (`"`) only. Any use of single quotes (`'`) will break the injection!
