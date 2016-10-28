@@ -48,6 +48,20 @@ Fix the 'Filed Note' (form helper text) weird spacing, and give it a slightly pr
 
 ***
 
-## Notes
+## Development
+
+Create the applicable `src/js/[feature_name].js` / `src/css/[feature_name].css` files
+
+## Deployment
+
+Have the dependencies installed
+
+    npm install
+
+1. Bump the version number in `package.json`
+2. Run `grunt`
+3. Copy to S3 (#TODO: automate deployment)
+
+### Notes
 
 Because of the nature of the javascript injection, all CSS must use double quotes (`"`) only. Any use of single quotes (`'`) will break the injection!
